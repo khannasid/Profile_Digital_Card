@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*{
+  font-family: 'Inter', sans-serif;
+}
+.App{
+  width: 414px;
+}
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+hr{
+  margin: 0;
+  padding: 0;
+}
+.Header{
+  margin: 0;
+  padding: 10px;
+  color: rgb(249, 219, 170);
+}
+.conatiner{
+  padding: 10px 10px;
+  background-color: #646cffaa;
+  border:5px solid #0e1051;
+  border-radius: 3px;
+  text-align: center;
+  width: 110%;
+  height: 100%;
+}
+.image{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.conatiner > h2{
+  font-weight: 700;
+}
+.conatiner > h4{
+  font-weight: 600;
+}
+.conatiner > h5{
+  font-weight: 500;
+}
+.section{
+  padding-top: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction:column;
+  align-content: stretch;
+  justify-content: center;
+}
+.section1{
+  padding-top: 7px;
+  margin: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: bisque;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+.section > *{
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.section > h4{
+  font-weight: 500;
+  color: white;
+  font-size: 24px;
+}
+.section > p, ul{
+  color: aliceblue;
+}
+.list{
+  list-style: none;
+}
